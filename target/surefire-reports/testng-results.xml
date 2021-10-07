@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[The title of the site is :ikman.lk - Electronics, Cars, Property and Jobs in Sri Lanka!]]>
+    </line>
+  </reporter-output>
+  <suite name="IkmanV1" duration-ms="40981" started-at="2021-10-07T02:08:41Z" finished-at="2021-10-07T02:09:22Z">
+    <groups>
+    </groups>
+    <test name="Ikman App test" duration-ms="40981" started-at="2021-10-07T02:08:41Z" finished-at="2021-10-07T02:09:22Z">
+      <class name="com.ikman.testCases.Login_ikman">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.ikman.testCases.Login_ikman@21bcffb5]" name="startReport" is-config="true" duration-ms="437" started-at="2021-10-07T07:38:41Z" finished-at="2021-10-07T07:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ikman.testCases.Login_ikman@21bcffb5]" name="setup" is-config="true" duration-ms="3685" started-at="2021-10-07T07:38:41Z" finished-at="2021-10-07T07:38:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:1, instance:com.ikman.testCases.Login_ikman@21bcffb5]" name="login" duration-ms="8860" started-at="2021-10-07T07:38:45Z" finished-at="2021-10-07T07:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="generate_report(org.testng.ITestResult)[pri:0, instance:com.ikman.testCases.Login_ikman@21bcffb5]" name="generate_report" is-config="true" duration-ms="698" started-at="2021-10-07T07:38:54Z" finished-at="2021-10-07T07:38:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Login_ikman.login()[pri:1, instance:com.ikman.testCases.Login_ikman@21bcffb5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generate_report -->
+        <test-method status="PASS" signature="verify_ikman_title()[pri:2, instance:com.ikman.testCases.Login_ikman@21bcffb5]" name="verify_ikman_title" duration-ms="12" started-at="2021-10-07T07:38:55Z" finished-at="2021-10-07T07:38:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The title of the site is :ikman.lk - Electronics, Cars, Property and Jobs in Sri Lanka!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_ikman_title -->
+        <test-method status="PASS" signature="generate_report(org.testng.ITestResult)[pri:0, instance:com.ikman.testCases.Login_ikman@21bcffb5]" name="generate_report" is-config="true" duration-ms="260" started-at="2021-10-07T07:38:55Z" finished-at="2021-10-07T07:38:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_ikman_title status=SUCCESS method=Login_ikman.verify_ikman_title()[pri:2, instance:com.ikman.testCases.Login_ikman@21bcffb5] output=The title of the site is :ikman.lk - Electronics, Cars, Property and Jobs in Sri Lanka!]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generate_report -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ikman.testCases.Login_ikman@21bcffb5]" name="tearDown" is-config="true" duration-ms="7381" started-at="2021-10-07T07:39:15Z" finished-at="2021-10-07T07:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ikman.testCases.Login_ikman -->
+      <class name="com.ikman.testCases.PostAd_ikman">
+        <test-method status="PASS" signature="post_ikmn()[pri:3, instance:com.ikman.testCases.PostAd_ikman@380fb434]" name="post_ikmn" duration-ms="11068" started-at="2021-10-07T07:38:55Z" finished-at="2021-10-07T07:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_ikmn -->
+        <test-method status="PASS" signature="generate_report(org.testng.ITestResult)[pri:0, instance:com.ikman.testCases.PostAd_ikman@380fb434]" name="generate_report" is-config="true" duration-ms="234" started-at="2021-10-07T07:39:06Z" finished-at="2021-10-07T07:39:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=post_ikmn status=SUCCESS method=PostAd_ikman.post_ikmn()[pri:3, instance:com.ikman.testCases.PostAd_ikman@380fb434] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generate_report -->
+        <test-method status="PASS" signature="setproperty_details()[pri:4, instance:com.ikman.testCases.PostAd_ikman@380fb434]" name="setproperty_details" duration-ms="8548" started-at="2021-10-07T07:39:06Z" finished-at="2021-10-07T07:39:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setproperty_details -->
+        <test-method status="PASS" signature="generate_report(org.testng.ITestResult)[pri:0, instance:com.ikman.testCases.PostAd_ikman@380fb434]" name="generate_report" is-config="true" duration-ms="217" started-at="2021-10-07T07:39:15Z" finished-at="2021-10-07T07:39:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setproperty_details status=SUCCESS method=PostAd_ikman.setproperty_details()[pri:4, instance:com.ikman.testCases.PostAd_ikman@380fb434] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generate_report -->
+      </class> <!-- com.ikman.testCases.PostAd_ikman -->
+    </test> <!-- Ikman App test -->
+  </suite> <!-- IkmanV1 -->
+</testng-results>

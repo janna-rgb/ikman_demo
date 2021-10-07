@@ -1,0 +1,8 @@
+com\ikman\testCases\Login_ikman.class
+com\ikman\pageObject\PropertyDetails.class
+com\ikman\pageObject\Logout.class
+com\ikman\testCases\PostAd_ikman.class
+com\ikman\testCases\BaseClass.class
+com\ikman\utilities\ReadConfig.class
+com\ikman\pageObject\Loginpage.class
+com\ikman\pageObject\PostAd.class
